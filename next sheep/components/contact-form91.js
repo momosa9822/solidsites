@@ -47,6 +47,7 @@ const ContactForm91 = (props) => {
               data-netlify="true"
               className="contact-form91-form thq-card"
             >
+                <input type="hidden" name="form-name" value="contact" />
               <div className="contact-form91-input1">
                 <label htmlFor="contact-form-9-name" className="thq-body-small">
                   Name
